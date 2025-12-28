@@ -1,0 +1,66 @@
+main > section.items {
+  width: 1350px;
+  height: 145px;
+  padding: 8px 0px;
+  margin: 0 auto;
+  margin-top: 16px;
+}
+
+main > section.items > div.items {
+  display: inline-block;
+  position: relative;
+}
+
+main > section.items > div.items > img {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  margin-right: 70px;
+  margin-top: 20px;
+}
+
+main > section.items > div.items > a {
+  text-decoration: none;
+  font-family: digikala;
+  color: rgb(59, 59, 59);
+  font-size: 12px;
+  display: inline-block;
+  position: absolute;
+  top: 80px;
+  left: 5px;
+  text-align: center;
+}
+
+main > section.items > div.moreitem {
+  width: 52px;
+  height: 52px;
+  background-color: gray;
+  display: inline-block;
+  position: relative;
+  border-radius: 100px;
+  margin-right: 70px;
+}
+
+main > section.items > div.moreitem > svg {
+  width: 52px;
+  height: 52px;
+  background-color: rgb(240, 240, 241);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+main > section.items > div.moreitem > a {
+  text-decoration: none;
+  font-family: digikala;
+  color: black;
+  font-size: 11px;
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+}
+
+main > section.items > div.moreitem > a.more {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+}

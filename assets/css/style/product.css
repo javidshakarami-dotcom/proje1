@@ -1,0 +1,110 @@
+section.Product-list>div.products{
+    width: 1336px;
+    height: 456px;
+    margin: 16px auto;
+}
+
+section.Product-list>div.products>h2{
+    font-family: Digikala;
+    font-size: 21px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+section.Product-list>div.products>.product-line{
+    width: 1178px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+section.Product-list>div.products>.product-line>img{
+    width: 100px;
+    height: 100px;
+    margin: 16px;
+    position: relative;
+    right:50px;
+}
+
+section.Product-list>div.products>.product-name{
+    width: 1336px;
+    height: 49px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+section.Product-list>div.products>.product-name>p{
+    color: black;
+    display: inline-block;
+    vertical-align: top;
+    margin: 16px;
+    text-align: center;
+    font-family: Digikala;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+section.Product-list>div.products>.product-name>p.product-a{
+    position: relative;
+    right: 155px;
+}
+section.Product-list>div.products>.product-name>p.product-b{
+    position: relative;
+    right: 200px;
+}
+section.Product-list>div.products>.product-name>p.product-c{
+    position: relative;
+    right: 225px;
+}
+section.Product-list>div.products>.product-name>p.product-d{
+    position: relative;
+    right: 245px;
+}
+section.Product-list>div.products>.product-name>p.product-e{
+    position: relative;
+    right: 245px;
+}
+section.Product-list>div.products>.product-name>p.product-f{
+    position: relative;
+    right: 255px;
+}
+section.Product-list>div.products>.product-name>p.product-g{
+    position: relative;
+    right: 280px;
+}
+section.Product-list>div.products>.product-name>p.product-h{
+    position: relative;
+    right: 325px;
+}
+section.Product-list>div.products>.product-name>p.product-i{
+    position: relative;
+    right: 123px;
+}
+section.Product-list>div.products>.product-name>p.product-j{
+    position: relative;
+    right: 123px;
+}
+section.Product-list>div.products>.product-name>p.product-k{
+    position: relative;
+    right: 128px;
+}
+section.Product-list>div.products>.product-name>p.product-l{
+    position: relative;
+    right: 147px;
+}
+section.Product-list>div.products>.product-name>p.product-m{
+    position: relative;
+    right: 168px;
+}
+section.Product-list>div.products>.product-name>p.product-n{
+    position: relative;
+    right: 185px;
+}
+section.Product-list>div.products>.product-name>p.product-o{
+    position: relative;
+    right: 195px;
+}
+section.Product-list>div.products>.product-name>p.product-p{
+    position: relative;
+    right: 200px;
+}

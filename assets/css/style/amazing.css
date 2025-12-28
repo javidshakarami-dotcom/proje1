@@ -1,0 +1,126 @@
+section.amazing-bar > div.amazingbar-swiper {
+  width: 1336px;
+  height: 294.04px;
+  background-color: #e0324e;
+  border-radius: 16px;
+  padding-left: 40px;
+  margin-top: 16px;
+}
+
+div.amazingbar-swiper
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > img.amazing-pic {
+  width: 132px;
+  height: 132px;
+  object-fit: cover;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+div.amazingbar-swiper > div.swiper-wrapper > div.swiper-slide {
+  width: 164px;
+  height: 254px;
+  margin-top: 20px;
+}
+
+div.amazingbar-swiper > div.swiper-wrapper > div.swiper-slide > a::before {
+  content: "۶,۰۰۰ تومان";
+  font-size: 14px;
+  position: absolute;
+  bottom: 12px;
+  left: 15px;
+}
+
+div.amazingbar-swiper > div.swiper-wrapper > div.swiper-slide > a::after {
+  content: "۸%";
+  width: 34px;
+  height: 20px;
+  font-size: 14px;
+  color: white;
+  background-color: red;
+  border-radius: 16px;
+  z-index: 2;
+  position: absolute;
+  top: 222px;
+  right: 5px;
+}
+
+div.amazingbar-swiper > div.swiper-wrapper > div.swiper-slide:first-of-type {
+  margin-right: 17px;
+  background-color: #e0324e;
+}
+
+div.amazingbar-swiper > div.swiper-wrapper > div.swiper-slide:last-of-type {
+  margin-left: 10px;
+  background-color: #ffffff;
+  border-radius: 8px 0 0 8px;
+}
+
+div.amazingbar-swiper > div.swiper-wrapper > div.swiper-slide:nth-of-type(2) {
+  margin-left: 10px;
+  background-color: #ffffff;
+  border-radius: 0 8px 8px 0;
+}
+
+div.amazingbar-swiper > div.swiper-wrapper > div.swiper-slide > a {
+  font-family: Digikala;
+  font-size: 12px;
+  color: black;
+}
+
+div.amazingbar-swiper
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > img.title-of-amazing {
+  width: 88px;
+  height: 88px;
+  margin: 0 auto;
+}
+
+div.amazingbar-swiper
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > img.logo-of-amazing {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+div.amazingbar-swiper > div.swiper-wrapper > div.swiper-slide > div.timer {
+  width: 26px;
+  height: 26px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 4px;
+  font-family: Digikala;
+  font-size: 15px;
+  text-align: center;
+}
+
+div.amazingbar-swiper > div.swiper-wrapper > div.swiper-slide > h3 {
+  display: inline-block;
+  color: white;
+  vertical-align: middle;
+}
+
+div.amazingbar-swiper
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > h4.moshahede-hame {
+  font-family: Digikala;
+  color: white;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+div.amazingbar-swiper > div.swiper-wrapper > div.swiper-slide > svg {
+  margin-top: 43%;
+}
+
+div.amazingbar-swiper > div.swiper-wrapper > div.swiper-slide > h4 {
+  font-size: 14px;
+  font-family: Digikala;
+  margin-top: 12px;
+  font-weight: 55;
+}

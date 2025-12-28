@@ -1,0 +1,39 @@
+main > div.storyline {
+  width: 1336px;
+  height: 170px;
+  padding: 4px 16px;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0 auto;
+}
+
+main
+  > div.storyline
+  > div.swiper
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > img {
+  margin: 20px;
+  width: 86px;
+  height: 86px;
+  border: 2px solid purple;
+  border-radius: 50%;
+  padding: 2.5px;
+  object-fit: cover;
+  object-position: center;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+main > div.storyline > div.swiper > div.swiper-wrapper > div.swiper-slide > a {
+  font-family: digikala;
+  display: inline-block;
+  font-size: 12px;
+  color: rgb(81, 79, 79);
+  text-decoration: none;
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+  right: calc(50%-86px / 2);
+  top: 120px;
+}

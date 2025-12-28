@@ -1,0 +1,77 @@
+section.kalaha {
+  width: 1360px;
+  height: 430px;
+  margin: 30px auto;
+  border-radius: 16px;
+  border: rgba(0, 0, 0, 0.052) solid 1px;
+  padding: 10px;
+}
+
+section.kalaha > div.kalaha-jadval {
+  width: 331px;
+  height: 417px;
+  display: inline-block;
+  border-left: rgba(0, 0, 0, 0.052) solid 1px;
+}
+
+section.kalaha > div.kalaha-jadval:last-of-type {
+  width: 331px;
+  height: 417px;
+  display: inline-block;
+  border-left: unset;
+}
+
+section.kalaha > div.kalaha-jadval > h3 {
+  font-family: Digikala;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+section.kalaha > div.kalaha-jadval > h4 {
+  font-family: Digikala;
+  margin-top: 10px;
+  font-weight: 10;
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.462);
+}
+
+section.kalaha > div.kalaha-jadval > div.kala-pic {
+  width: 331px;
+  height: 150px;
+  border-bottom: rgba(0, 0, 0, 0.052) solid 1px;
+}
+
+section.kalaha > div.kalaha-jadval > div.kala-pic > a {
+  display: inline-block;
+  margin: 17px;
+}
+
+section.kalaha > div.kalaha-jadval > div.kala-pic > a > img {
+  width: 129px;
+  height: 129px;
+}
+
+section.kalaha > div.kalaha-jadval > a.kala-more {
+  font-family: Digikala;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 12px;
+  color: #19c2d7;
+  position: relative;
+  top: 20px;
+  right: 130px;
+}
+
+section.under-kala-banner {
+  width: 1336px;
+  height: 167px;
+  position: relative;
+  right: calc(50% - 1360px / 2);
+}
+
+section.under-kala-banner > div.under-kala-banner-pic > img {
+  width: 1336px;
+  height: 167px;
+
+  border-radius: 16px;
+}

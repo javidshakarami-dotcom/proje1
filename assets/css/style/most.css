@@ -1,0 +1,73 @@
+section.most>div.most-slider{
+    width: 1336px;
+    height: 404px;
+    border: rgba(0, 0, 0, 0.052) solid 1px;
+    margin: 24px auto;
+    border-radius: 16px;
+}
+
+section.most>div.most-slider>div.most-title{
+    width: 1336px;
+    height: 50px;
+    display: block;
+}
+
+section.most>div.most-slider>div.most-title>h3{
+    font-family: Digikala;
+    font-size: 21px;
+    text-align: center;
+    font-weight: 500;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+
+section.most>div.most-slider>div.most-title>h3>svg{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+section.most>div.most-slider>div.most-title>a>p{
+    font-family: Digikala;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+    color: #19BFD3;
+    position: absolute;
+    right: 1230px;
+    top: 25px;
+}
+
+section.most>div.most-slider>div.swiper-wrapper>div.swiper-slide>.most-parts>.most-line>p{
+    font-family: Digikala;
+    font-size: 12px;
+    text-align: right;
+    font-weight: 400;
+    color: #000000b3;
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 20px;
+    border-bottom: rgba(0, 0, 0, 0.052) solid 1px;
+    margin-right: 10px;
+}
+
+section.most>div.most-slider>div.swiper-wrapper>div.swiper-slide>div.most-parts>div.most-line{
+    margin-bottom: 35px;
+}
+
+section.most>div.most-slider>div.swiper-wrapper>div.swiper-slide>div.most-parts>div.most-line>img{
+    width: 76px;
+    height: 76px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+section.most>div.most-slider>div.swiper-wrapper>div.swiper-slide>div.most-parts>div.most-line>span{
+    color: #19BFD3;
+    font-family: Digikala;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+section.most>div.most-slider>div.swiper-wrapper>div.swiper-slide{
+    padding: 10px;
+}

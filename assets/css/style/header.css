@@ -1,0 +1,129 @@
+/* start header */
+
+header {
+  width: 100%;
+  height: 122px;
+  background-color: white;
+  top: 0;
+  position: sticky;
+  z-index: 5;
+}
+
+/* start top-header */
+
+header > section.top-header {
+  width: inherit;
+  height: 60px;
+  position: sticky;
+}
+
+header > section.top-header > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* end top-header */
+
+/* start mid-header */
+
+header > section.midheader {
+  width: 100%;
+  height: 68px;
+  padding: 12px 28px;
+  position: sticky;
+}
+
+header > section.midheader > div.right-side-midheader {
+  display: inline-block;
+}
+
+header > section.midheader > div.right-side-midheader {
+  display: inline-block;
+}
+
+header > section.midheader > div.right-side-midheader > div.logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+header > section.midheader > div.right-side-midheader > div.search {
+  display: inline-block;
+  padding-left: 400px;
+}
+
+header > section.midheader > div.right-side-midheader > div.search > input {
+  vertical-align: middle;
+  margin: 0 17px;
+  width: 600px;
+  height: 44px;
+  padding: 0 5px;
+  border: none;
+  outline: unset;
+  border-radius: 8px;
+  background-color: rgb(235, 235, 235);
+  position: relative;
+}
+
+header > section.midheader > div.right-side-midheader > div.search > svg {
+  vertical-align: middle;
+  position: relative;
+  right: 60px;
+  z-index: 2;
+}
+
+input::placeholder {
+  font-family: digikala;
+  color: rgba(95, 95, 95, 0.466);
+  font-size: 12px;
+}
+
+header > section.midheader > div.left-side-midheader {
+  display: inline-block;
+}
+
+header > section.midheader > div.left-side-midheader > div.sign {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+header > section.midheader > div.left-side-midheader > h3 {
+  display: inline-block;
+  font-family: digikala;
+  font-size: 30px;
+  font-weight: 30;
+  padding-left: 20px;
+  vertical-align: middle;
+  color: rgba(145, 145, 145, 0.518);
+}
+
+header > section.midheader > div.left-side-midheader > div.cart {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+header > section.midheader > div.left-side-midheader > div.sign > a > svg {
+  padding-left: 7px;
+  display: inline-block;
+}
+
+header > section.midheader > div.left-side-midheader > div.sign > a {
+  font-size: 12px;
+  font-family: digikala;
+  font-weight: 700;
+  display: inline-block;
+  color: black;
+  vertical-align: middle;
+  padding: 10px;
+  border: 1px solid rgba(145, 145, 145, 0.634);
+  border-radius: 10px;
+}
+
+header > section.midheader > div.left-side-midheader > div.cart > svg {
+  vertical-align: middle;
+}
+
+svg.login {
+  vertical-align: middle;
+}
+
+/* end mid-header */

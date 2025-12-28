@@ -1,0 +1,18 @@
+section.third-banner {
+  width: 1336px;
+  height: 264px;
+  margin: 16px auto;
+  position: relative;
+  right: 2px;
+}
+
+section.third-banner > div.third-banner-pic {
+  display: inline-block;
+}
+
+section.third-banner > div.third-banner-pic > img {
+  width: 660px;
+  height: 264px;
+  border-radius: 16px;
+  margin-right: 6px;
+}

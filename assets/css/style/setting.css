@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: Digikala;
+  src: url(../../fonts/iranyekanwebmedium.2d4f96e5.woff);
+}
+@font-face {
+  font-family: Digikala-b;
+  src: url(../../fonts/iranyekanwebregular.e31c09af.woff2);
+}
+@font-face {
+  font-family: Digikala-c;
+  src: url(../../fonts/cube-v8.1.woff);
+}
+@font-face {
+  font-family: Digikala-d;
+  src: url(../../fonts/iranyekanwebbold.cfb6e26c.woff2);
+}
+@font-face {
+  font-family: Digikala-e;
+  src: url(../../fonts/iranyekanwebextrabold.9346e9a2.woff);
+}

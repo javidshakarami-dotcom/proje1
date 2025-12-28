@@ -1,0 +1,241 @@
+section.Discounted-products {
+    width: 1336px;
+    height: 800px;
+    margin: 40px auto;
+    border-radius: 16px;
+    border:0.8px rgba(0, 0, 0, 0.060) solid;
+  }
+
+
+section.Discounted-products>h3{
+    font-family: digikala;
+    vertical-align: middle;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    padding-top:10px ;
+    padding-bottom: 45px;
+}
+
+section.Discounted-products>div.d-products{
+    display: inline-block;
+    width: 215px;
+    height: 230px;
+    padding: 12px 8px;
+    border-left:0.9px rgba(0, 0, 0, 0.060) solid ;
+    border-bottom: 0.9px rgba(0, 0, 0, 0.060) solid;
+    position: relative;
+    font-family: digikala;
+}
+
+
+
+section.Discounted-products>div:nth-of-type(1){
+    display: inline-block;
+    width: 210px;
+    height: 230px;
+    border-left:0.9px rgba(0, 0, 0, 0.060) solid ;
+    border-bottom: 0.9px rgba(0, 0, 0, 0.060) solid;
+
+}
+
+section.Discounted-products>div:nth-of-type(6){
+    display: inline-block;
+    width: 210px;
+    height: 230px;
+    border-left:unset;
+
+}
+
+section.Discounted-products>div.d-products>img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 2px;
+    right: 20px;
+
+}
+
+section.Discounted-products>div.d-products::before {
+    content: "۵,۰۰۰ تومان";
+    font-size: 14px;
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+  }
+  
+  section.Discounted-products>div.d-products::after {
+    content: "۹۵%";
+    width: 34px;
+    height: 20px;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(211,47,47);
+    border-radius: 16px;
+    z-index: 2;
+    position: absolute;
+    top: 190px;
+    right: 8px;
+    text-align: center;
+  }
+
+
+  section.Discounted-products>div.d-products>a{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    color: rgb(211,213,215);
+    text-align: center;
+    font-size: 15px;
+    text-decoration: line-through;
+    margin-top: 5px;
+}
+
+
+  /* second line */
+
+section.Discounted-products>div.d-products-second{
+    display: inline-block;
+    width: 215px;
+    height: 230px;
+    padding: 12px 8px;
+    border-left:0.9px rgba(0, 0, 0, 0.060) solid ;
+    border-bottom: 0.9px rgba(0, 0, 0, 0.060) solid;
+    position: relative;
+    font-family: digikala;
+}
+
+
+section.Discounted-products>div:nth-of-type(7){
+    display: inline-block;
+    width: 210px;
+    height: 230px;
+    border-left:0.9px rgba(0, 0, 0, 0.060) solid ;
+    border-bottom: 0.9px rgba(0, 0, 0, 0.060) solid;
+
+}
+
+section.Discounted-products>div:nth-of-type(12){
+    display: inline-block;
+    width: 210px;
+    height: 230px;
+    border-left:unset;
+
+}
+
+section.Discounted-products>div.d-products-second>img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 2px;
+    right: 20px;
+
+}
+
+section.Discounted-products>div.d-products-second::before {
+    content: "۵,۰۰۰ تومان";
+    font-size: 14px;
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+  }
+  
+  section.Discounted-products>div.d-products-second::after {
+    content: "۹۵%";
+    width: 34px;
+    height: 20px;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(211,47,47);
+    border-radius: 16px;
+    z-index: 2;
+    position: absolute;
+    top: 180px;
+    right: 8px;
+    text-align: center;
+  }
+
+  section.Discounted-products>div.d-products-second>a{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    color: rgb(211,213,215);
+    text-align: center;
+    font-size: 15px;
+    text-decoration: line-through;
+    margin-top: 5px;
+
+}
+
+/* third line */
+
+  section.Discounted-products>div.d-products-third{
+    display: inline-block;
+    width: 215px;
+    height: 230px;
+    padding: 12px 8px;
+    border-left:0.9px rgba(0, 0, 0, 0.060) solid ;
+    position: relative;
+    font-family: digikala;
+}
+
+
+
+section.Discounted-products>div:nth-of-type(13){
+    display: inline-block;
+    width: 210px;
+    height: 230px;
+    border-left:0.9px rgba(0, 0, 0, 0.060) solid ;
+}
+
+section.Discounted-products>div:nth-of-type(18){
+    display: inline-block;
+    width: 210px;
+    height: 230px;
+    border-left:unset;
+    border-bottom: unset;
+}
+
+section.Discounted-products>div.d-products-third>img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 2px;
+    right: 20px;
+}
+
+section.Discounted-products>div.d-products-third::before {
+    content: "۵,۰۰۰ تومان";
+    font-size: 14px;
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+  }
+  
+  section.Discounted-products>div.d-products-third::after {
+    content: "۹۵%";
+    width: 34px;
+    height: 20px;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(211,47,47);
+    border-radius: 16px;
+    z-index: 2;
+    position: absolute;
+    top: 180px;
+    right: 8px;
+    text-align: center;
+  }
+
+  section.Discounted-products>div.d-products-third>a{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    color: rgb(211,213,215);
+    text-align: center;
+    font-size: 15px;
+    text-decoration: line-through;
+    margin-top: 5px;
+}
